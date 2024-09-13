@@ -1,7 +1,9 @@
 name: Azure Bicep
 
 on:
-  workflow_dispatch
+  push:
+    branches:
+    - develop
 
 env:
   targetEnv: dev
